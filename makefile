@@ -8,4 +8,4 @@ rev.o: rev.c
 fibb.o: fibb.c
 	gcc -c fibb.c
 clean:
-	rm -f *.o ABC.exe
+	rm -f *.o revfebb.exe
