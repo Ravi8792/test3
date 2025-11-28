@@ -7,3 +7,5 @@ rev.o: rev.c
 	gcc -c rev.c
 fibb.o: fibb.c
 	gcc -c fibb.c
+clean:
+		rm -rf .o
